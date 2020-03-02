@@ -53,7 +53,7 @@ def main():
     pw.setMatcher(node=bot.matcher)
     my_address = pw.Address(privateKey=bot.private_key)
     waves_btc = pw.AssetPair(bot.amount_asset, bot.price_asset)
-    UDP_IP = "192.168.0.136"
+    UDP_IP = "192.168.0.115"
     UDP_PORT1 = 5005
     sock1 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     while True:
