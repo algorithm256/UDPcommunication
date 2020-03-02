@@ -53,7 +53,7 @@ def main():
     pw.setMatcher(node=bot.matcher)
     my_address = pw.Address(privateKey=bot.private_key)
     waves_eth = pw.AssetPair(bot.amount_asset, bot.price_asset2)
-    UDP_IP = "192.168.0.136"
+    UDP_IP = "192.168.0.115"
     UDP_PORT3 = 5007
     sock3 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     while True:
