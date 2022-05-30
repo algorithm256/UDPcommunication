@@ -14,13 +14,13 @@ class AndBot:
         self.private_key = ""
         self.amount_asset_id = pw.WAVES
         self.amount_asset = pw.Asset(pw.WAVES)
-        self.price_asset_id = "8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS" # BTC
+        self.price_asset_id = "" # BTC
         self.price_asset = pw.Asset(self.price_asset_id)  
-        self.amount_asset1_id = "474jTeYx2r2Va35794tCScAXWJG9hU2HcgxzMowaZUnu"
+        self.amount_asset1_id = ""
         self.amount_asset1 = pw.Asset(self.amount_asset1_id)  
-        self.price_asset1_id = "8LQW8f7P5d5PZM7GtZEBgaqRPGSzS3DfPuiXrURJ4AJS" # BTC
+        self.price_asset1_id = "" # BTC
         self.price_asset1 = pw.Asset(self.price_asset1_id)  
-        self.price_asset2_id = "474jTeYx2r2Va35794tCScAXWJG9hU2HcgxzMowaZUnu" # 
+        self.price_asset2_id = "" # 
         self.price_asset2 = pw.Asset(self.price_asset2_id)  
 
     def read_config(self, cfg_file):
